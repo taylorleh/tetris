@@ -1,0 +1,43 @@
+
+body {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 300px;
+	display: inline-table;
+	margin-top: 5em;
+}
+
+
+table tr td {
+	border: 1px solid black;
+}
+
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: #00FF00;
+}
+
+.yellow {
+	background-color: #EFDC0D;
+}
+
+.purple {
+	background-color:#CC00FF; 
+}
+
+
+.purple, .red, .blue, .green, .yellow {
+	box-shadow: 0px 0px 2px 0px inset;
+}
+
+
